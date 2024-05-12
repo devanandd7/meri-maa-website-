@@ -28,7 +28,10 @@ export default function Home() {
               meaningful connections through art.
                 </p>
                
+                <h1 className="text-3xl  text-blue-600 text-center"> Only 350₹ </h1>
               </div>
+
+            
             </div>
           </div>
         </section>
