@@ -40,14 +40,8 @@ body {
   box-sizing: border-box;
 }
 
-iframe {
-  aspect-ratio: 16/9;
-}
 
-.video-container {
-  margin: 2rem;
-  max-height: 300px;
-}
+
 
 img {
   display: block;
