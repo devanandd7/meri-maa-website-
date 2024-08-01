@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Link from "next/link";
 import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -8,11 +9,9 @@ export default function Home() {
     const Con = document.getElementById("codepen");
     const slider = document.querySelector(".slider");
     slider.addEventListener("input", (e) => {
-      Con.style.setProperty("--position", (e)=>`${e.target.value}%` );
+      Con.style.setProperty("--position", `${e.target.value}%`);
     });
-  }
-);
-
+  });
 
   return (
     <>
@@ -71,7 +70,6 @@ export default function Home() {
                   value="50"
                   aria-label="Percentage of before photo shown"
                   className="slider"
-                 
                 />
                 <div className="slider-line" aria-hidden="true"></div>
                 <div className="slider-button" aria-hidden="true">
@@ -297,13 +295,13 @@ export default function Home() {
                     </i>
                   </button>
                 </a>
-                <a href="/gallery">
+                <Link href="/gallery">
                   <button className="ml-4 inline-flex text-orange-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                     <i>
                       <b> Gallery</b>
                     </i>
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
