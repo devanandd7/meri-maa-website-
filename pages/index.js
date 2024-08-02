@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import Link from "next/link";
+
 import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -11,6 +11,7 @@ export default function Home() {
     slider.addEventListener("input", (e) => {
       Con.style.setProperty("--position", `${e.target.value}%`);
     });
+   
   });
 
   return (
@@ -269,7 +270,7 @@ export default function Home() {
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
-                src="mom.png"
+                src="mata.jpg"
               />
             </div>
             <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -295,13 +296,13 @@ export default function Home() {
                     </i>
                   </button>
                 </a>
-                <Link href="/gallery">
+                <a href="/gallery">
                   <button className="ml-4 inline-flex text-orange-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                     <i>
                       <b> Gallery</b>
                     </i>
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

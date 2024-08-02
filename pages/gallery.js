@@ -31,7 +31,13 @@ function gallery() {
     </div>
     <div class="grid gap-4">
         <div>
-            <Image class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt=""/>
+            <Image class="h-auto max-w-full rounded-lg" src="salman.jpg" alt=""/>
+        </div>
+        <div>
+            <Image class="h-auto max-w-full rounded-lg" src="eye.jpg" alt=""/>
+        </div>
+        <div>
+            <Image class="h-auto max-w-full rounded-lg" src="mata.jpg" alt=""/>
         </div>
       
     </div>
