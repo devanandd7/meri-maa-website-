@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 
 import { useEffect } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export default function Home() {
   useEffect(() => {
@@ -69,6 +69,7 @@ export default function Home() {
                   min="0"
                   max="100"
                   value="50"
+                  readOnly
                   aria-label="Percentage of before photo shown"
                   className="slider"
                 />
@@ -238,7 +239,7 @@ export default function Home() {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font font-medium">Sketch Gift</span>
+                  <span className="title-font font-medium">School Assignment / Project </span>
                 </div>
               </div>
               <div className="p-2 sm:w-1/2 w-full">
@@ -337,7 +338,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                @David-Adair
+                @David-Adair   Contact - 7857015768
               </a>
             </p>
           </div>

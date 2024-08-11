@@ -22,6 +22,8 @@ const about = () => {
             <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
             <h2 className="text-white-900 font-medium title-font tracking-wider text-xx">
               david adair
+              <br />
+              7857015768
             </h2>
             <p className="text-gray-500">Senior Product Designer</p>
           </div>
@@ -60,7 +62,7 @@ const about = () => {
                   grandparents. Each image is carefully crafted to capture the
                   essence of the person, their love, and their unique story.
                 </p>
-
+<a href="https://forms.gle/mREbvifNpZu6GDQe6">
                 <button className="flex items-center mt-auto text-white bg-orange-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   {" "}
                   Order now
@@ -75,7 +77,7 @@ const about = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </button>
+                </button></a>
               </div>
             </div>
 
@@ -102,6 +104,7 @@ const about = () => {
                   grandparents. Each image is carefully crafted to capture the
                   essence of the person, their love, and their unique story.
                 </p>
+                <a href="https://forms.gle/mREbvifNpZu6GDQe6">
 
                 <button className="flex items-center mt-auto text-white bg-orange-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   {" "}
@@ -117,7 +120,7 @@ const about = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </button>
+                </button></a>
               </div>
             </div>
 
@@ -144,6 +147,7 @@ const about = () => {
                   special, our T-shirts become keepsakes. They hold the
                   laughter, the tears, and the moments that define us.
                 </p>
+                <a href="https://forms.gle/mREbvifNpZu6GDQe6">
 
                 <button className="flex items-center mt-auto text-white bg-orange-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   {" "}
@@ -159,7 +163,7 @@ const about = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </button>
+                </button></a>
               </div>
             </div>
           </div>
