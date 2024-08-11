@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
+import Link from "next/link";
 
 import { useEffect } from "react";
+
 
 
 
@@ -297,13 +299,13 @@ export default function Home() {
                     </i>
                   </button>
                 </a>
-                <a href="/gallery">
+                <Link href="/gallery">
                   <button className="ml-4 inline-flex text-orange-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                     <i>
                       <b> Gallery</b>
                     </i>
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
