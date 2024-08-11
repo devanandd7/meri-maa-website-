@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Link from "next/link";
 
 import { useEffect } from "react";
 
@@ -160,7 +161,7 @@ export default function Home() {
                 <p className="text-center"><b> <i><br />Stay Connected With Love One <br /></i> ~❤~</b></p>
               </h6>
               <div className="flex justify-item-center ">
-                <a href="https://forms.gle/mREbvifNpZu6GDQe6">
+                <Link href="https://forms.gle/mREbvifNpZu6GDQe6">
                   {" "}
                   <button className="ml-4 mx-auto inline-flex text-blue-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                     <i>
@@ -168,7 +169,7 @@ export default function Home() {
                       <b> Order now</b>{" "}
                     </i>
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
            
@@ -288,7 +289,7 @@ export default function Home() {
                 your eyes. Let my sketches whisper your story.
               </p>
               <div className="flex justify-center">
-                <a href="https://forms.gle/mREbvifNpZu6GDQe6">
+                <Link href="https://forms.gle/mREbvifNpZu6GDQe6">
                   {" "}
                   <button className="ml-4 inline-flex text-orange-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                     <i>
@@ -296,14 +297,14 @@ export default function Home() {
                       <b> Order now</b>{" "}
                     </i>
                   </button>
-                </a>
-                <a href="/gallery">
+                </Link>
+                <Link href="/gallery">
                   <button className="ml-4 inline-flex text-orange-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                     <i>
                       <b> Gallery</b>
                     </i>
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -311,7 +312,7 @@ export default function Home() {
 
         <footer className="text-gray-600 body-font">
           <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-            <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <Link className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -329,17 +330,17 @@ export default function Home() {
                   <i> Meri-Maa </i>
                 </b>
               </span>
-            </a>
+            </Link>
             <p className="text-sm text-yellow-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-yellow-200 sm:py-2 sm:mt-0 mt-4 text-center">
               © 2024 Tailblocks —
-              <a
+              <Link
                 href="https://twitter.com/knyttneve"
                 className="text-white ml-1"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 @David-Adair   Contact - 7857015768
-              </a>
+              </Link>
             </p>
           </div>
         </footer>
