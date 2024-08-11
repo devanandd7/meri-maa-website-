@@ -63,7 +63,7 @@ const about = () => {
                   grandparents. Each image is carefully crafted to capture the
                   essence of the person, their love, and their unique story.
                 </p>
-<Link href="https://forms.gle/mREbvifNpZu6GDQe6">
+<a href="https://forms.gle/mREbvifNpZu6GDQe6">
                 <button className="flex items-center mt-auto text-white bg-orange-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   {" "}
                   Order now
@@ -78,7 +78,7 @@ const about = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </button></Link>
+                </button></a>
               </div>
             </div>
 
@@ -105,7 +105,7 @@ const about = () => {
                   grandparents. Each image is carefully crafted to capture the
                   essence of the person, their love, and their unique story.
                 </p>
-                <Link href="https://forms.gle/mREbvifNpZu6GDQe6">
+                <a href="https://forms.gle/mREbvifNpZu6GDQe6">
 
                 <button className="flex items-center mt-auto text-white bg-orange-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   {" "}
@@ -121,7 +121,7 @@ const about = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </button></Link>
+                </button></a>
               </div>
             </div>
 
@@ -148,7 +148,7 @@ const about = () => {
                   special, our T-shirts become keepsakes. They hold the
                   laughter, the tears, and the moments that define us.
                 </p>
-                <Link href="https://forms.gle/mREbvifNpZu6GDQe6">
+                <a href="https://forms.gle/mREbvifNpZu6GDQe6">
 
                 <button className="flex items-center mt-auto text-white bg-orange-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   {" "}
@@ -164,7 +164,7 @@ const about = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </button></Link>
+                </button></a>
               </div>
             </div>
           </div>
