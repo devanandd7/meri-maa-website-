@@ -333,7 +333,7 @@ export default function Home() {
               </span>
             </a>
             <p className="text-sm text-yellow-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-yellow-200 sm:py-2 sm:mt-0 mt-4 text-center">
-              © 2024 Tailblocks —
+              © 2024 
               <a
                 href="https://twitter.com/knyttneve"
                 className="text-white ml-1"
